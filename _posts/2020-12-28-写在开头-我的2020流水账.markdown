@@ -2,7 +2,7 @@
 layout:     post
 title:      写在开头 - 我的2020流水账
 subtitle:   "我，又苟延残喘地活了一年。并且，我打算继续活下去。"
-date:       2020-12-31
+date:       2020-12-28
 author:     Kurt
 header-img: "img/home-bg-o.jpg"
 catalog: true
