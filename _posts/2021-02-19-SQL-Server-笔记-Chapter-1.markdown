@@ -18,7 +18,7 @@ tags:
 
 ![table structure](/img/post/2021-02-19-internal-structure-of-a-table.jpg)
 
-<font color=gray>**Picture from Expert SQL Server Transactions and Locking by Korotkevitch, Dmitri*</font>
+<font color=gray>**Picture from Expert SQL Server Transactions and Locking by Korotkevitch, Dmitri**</font>
 
 首先，表中存储的数据要么根据聚集索引键的值进行排序，要么完全无序（成为堆表或者堆）。
 
@@ -30,7 +30,7 @@ tags:
 
 ![data page structure](/img/post/2021-02-19-Data-Page-Structure.png)
 
-<font color=gray>**Picture from https://www.sqlpassion.at/archive/2016/08/22/data-pages-the-foundation-of-sql-server/*</font>
+<font color=gray>**Picture from https://www.sqlpassion.at/archive/2016/08/22/data-pages-the-foundation-of-sql-server/**</font>
 
 每个数据页的大小为8KB，即8192 bytes。其中，固定96 bytes的大小为页头。接下来的8060 bytes是用户可以使用的空间用来记录数据，以行的形式储存。剩下的36 bytes是行偏移数组表，自下而上保存槽数组指针或转发行返回指针。
 
